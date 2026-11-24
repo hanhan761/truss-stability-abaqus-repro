@@ -1,0 +1,3439 @@
+{
+  "schema": 1,
+  "design": {
+    "lengths": [
+      370,
+      359,
+      348,
+      338,
+      327,
+      316,
+      305,
+      298,
+      290,
+      283,
+      275,
+      268,
+      260,
+      253,
+      245,
+      238,
+      230,
+      223,
+      215,
+      204,
+      193,
+      183,
+      172,
+      161,
+      150
+    ],
+    "other": 260,
+    "E": 230000,
+    "nu": 0.288,
+    "width": 20,
+    "thickness": 1.5,
+    "plates": [
+      "none",
+      "left",
+      "right",
+      "both"
+    ],
+    "replicates": 10
+  },
+  "jobs": [
+    {
+      "name": "L370_260_none_n16",
+      "suite": "buckling",
+      "chord": 370,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "f0b9e075c5716cd8e5986494a227418b60f38c77fb8d822b593c5440d3f71ec8",
+      "reference_load_N": 135.93,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L370_260_left_n16",
+      "suite": "buckling",
+      "chord": 370,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "e0939c7f9e51e222d7f66e6fb7073d393ba7fbff449892c0910c5ae138b22bae",
+      "reference_load_N": 228.77,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L370_260_right_n16",
+      "suite": "buckling",
+      "chord": 370,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "a7bb28d025758c07e033af1d7a0d0ea0c1fe92d9a6779e8a641c58cc8a7eca43",
+      "reference_load_N": 228.77,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L370_260_both_n16",
+      "suite": "buckling",
+      "chord": 370,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "44b8d97fe8c8e2a985602af40711fd08bf1057d55cc9bf66ebce804f3bd7a640",
+      "reference_load_N": 349.82,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L359_260_none_n16",
+      "suite": "buckling",
+      "chord": 359,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "c81f65f9778359c93a0dfcbe6ad631c4bd3f009ef4b1ae2e21e813853149982d",
+      "reference_load_N": 147.52,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L359_260_left_n16",
+      "suite": "buckling",
+      "chord": 359,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "6c42615b0aa52ffce844d5df66c89d5d8c5c378265a5200e93987b51f87b6c5c",
+      "reference_load_N": 246.22,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L359_260_right_n16",
+      "suite": "buckling",
+      "chord": 359,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "0a2c54a0321ecc3149b953007aa8e77d7b6c2e772f77b81b7608030b3973318c",
+      "reference_load_N": 246.22,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L359_260_both_n16",
+      "suite": "buckling",
+      "chord": 359,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "dfd17ba767f5f8d61c62ce63161dc6f111158300622185a9da628e94f4d96353",
+      "reference_load_N": 368.34,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L348_260_none_n16",
+      "suite": "buckling",
+      "chord": 348,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "21e8f5e507c07037f874d9b0c008518863afbcd82e50da30e3bb28017c9ea94a",
+      "reference_load_N": 160.2,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L348_260_left_n16",
+      "suite": "buckling",
+      "chord": 348,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "41708a9911a05e50c6a00a2c3e750a081a2ca334cbb8cc9025582ebd59c045c5",
+      "reference_load_N": 264.86,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L348_260_right_n16",
+      "suite": "buckling",
+      "chord": 348,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "12ca15c1ca14adbcffbe7f72eb1c659e15344c7cab33fb7f954302a85ff2be56",
+      "reference_load_N": 264.86,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L348_260_both_n16",
+      "suite": "buckling",
+      "chord": 348,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "43f56c66d3d8e863e624f9441175d84fd0f4faf7586d0aa04d1987fced144e76",
+      "reference_load_N": 386.14,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L338_260_none_n16",
+      "suite": "buckling",
+      "chord": 338,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "d27a2cff8f69a3526ffe419e7e5a6351bebcfbcf261d33fecfdbad1a679efe32",
+      "reference_load_N": 172.79,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L338_260_left_n16",
+      "suite": "buckling",
+      "chord": 338,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "20fb782e84e507ac7294628c53ff8d2ab5c733046259431254bc68e6fa9c984b",
+      "reference_load_N": 282.88,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L338_260_right_n16",
+      "suite": "buckling",
+      "chord": 338,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "ef886a60822cf140fcf9e1d3af7d318e37e2391dc386dc4d6196c18d216f0749",
+      "reference_load_N": 282.88,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L338_260_both_n16",
+      "suite": "buckling",
+      "chord": 338,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "7c2708c49ad3e3f19dcb49847fa54cdb2284cdcda713f5650cf0a89794bc0c7a",
+      "reference_load_N": 401.45,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L327_260_none_n16",
+      "suite": "buckling",
+      "chord": 327,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "c5270643ce008fb047690ff0ed0118a8415f53e66290a6fc0e7ee7e0b3ca2321",
+      "reference_load_N": 187.99,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L327_260_left_n16",
+      "suite": "buckling",
+      "chord": 327,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "13ffce2167dddf58476b43d1a6970b88a0c132005bad5685507ff5e4d0903a05",
+      "reference_load_N": 303.92,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L327_260_right_n16",
+      "suite": "buckling",
+      "chord": 327,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "9ccb695f44575c2b13956c114e1d677a24ed22c9dfe2df0b654e2e18e2a24c93",
+      "reference_load_N": 303.92,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L327_260_both_n16",
+      "suite": "buckling",
+      "chord": 327,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "e4f5ac92a9aad72eb21adc8491c73bbebb1c8f9706f10158b11cf759cd679ad8",
+      "reference_load_N": 417.04,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L316_260_none_n16",
+      "suite": "buckling",
+      "chord": 316,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "d0c3b1c46f703befa245daeff21fb951198c68a4f2389b72c5ead893975baf73",
+      "reference_load_N": 204.82,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L316_260_left_n16",
+      "suite": "buckling",
+      "chord": 316,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "6b2123d50bc33116bc67a502ef66afbef422a9a3e5b1bc6005aca6a3193ef67e",
+      "reference_load_N": 326.18,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L316_260_right_n16",
+      "suite": "buckling",
+      "chord": 316,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "f840c8c1326163b509b73fee861bff9b0b0728b2af3d408ac7863b48fb7ec4b7",
+      "reference_load_N": 326.18,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L316_260_both_n16",
+      "suite": "buckling",
+      "chord": 316,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "954abb4b07fa362ba85ae6799adbb794c3dee1551d88abe854b517fb42960933",
+      "reference_load_N": 431.15,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L305_260_none_n16",
+      "suite": "buckling",
+      "chord": 305,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "f5123e60e32cc0349da9f769754bd34e62e87deff1228037c1d88cd8c5d1cbb6",
+      "reference_load_N": 223.53,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L305_260_left_n16",
+      "suite": "buckling",
+      "chord": 305,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "643d67ea449d716ca96ca7b868f3af9c34576f04d88089179dcb08aa6d23420d",
+      "reference_load_N": 328.91,
+      "reference_leading_rods": [
+        4
+      ]
+    },
+    {
+      "name": "L305_260_right_n16",
+      "suite": "buckling",
+      "chord": 305,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "00ec7b8494f3d64531524701da170cece81bfe348b88028b0d9176b8aef7688d",
+      "reference_load_N": 328.91,
+      "reference_leading_rods": [
+        1
+      ]
+    },
+    {
+      "name": "L305_260_both_n16",
+      "suite": "buckling",
+      "chord": 305,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "2f8cc2c42d95b629829ee637bf5bf835ea7960accb3e4e642709409cea68f553",
+      "reference_load_N": 443.73,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L298_260_none_n16",
+      "suite": "buckling",
+      "chord": 298,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "68780018399c19857a4f0f773f4e0ef6a86547a23cf3fbbe1f35c06ef5708c4e",
+      "reference_load_N": 236.55,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L298_260_left_n16",
+      "suite": "buckling",
+      "chord": 298,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "cf8d7e88d76ca42386c5cd56bc8f8d8c67dc612a4e37873a430a4ada13f567ef",
+      "reference_load_N": 328.4,
+      "reference_leading_rods": [
+        4
+      ]
+    },
+    {
+      "name": "L298_260_right_n16",
+      "suite": "buckling",
+      "chord": 298,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "6cc7988327516d06abb8b06b03a700dac5f28e766657bafc65e0585a4035d689",
+      "reference_load_N": 328.4,
+      "reference_leading_rods": [
+        1
+      ]
+    },
+    {
+      "name": "L298_260_both_n16",
+      "suite": "buckling",
+      "chord": 298,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "7bb1af95ad7e7e8df4300cf6729eca89946a58dc48888e14ed9a1c98725803ca",
+      "reference_load_N": 450.96,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L290_260_none_n16",
+      "suite": "buckling",
+      "chord": 290,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "44d8ace1734137e14e110a780f7ad0c9e27e33bc896d6bc85bd00df097feab8d",
+      "reference_load_N": 252.63,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L290_260_left_n16",
+      "suite": "buckling",
+      "chord": 290,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "12c84426471eba0ac8dd89f11a58640bee1dcba4cf1543d814610a3b80579b18",
+      "reference_load_N": 327.92,
+      "reference_leading_rods": [
+        4
+      ]
+    },
+    {
+      "name": "L290_260_right_n16",
+      "suite": "buckling",
+      "chord": 290,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "afebc4f245b52cc261ef44e250095635798b32bc06908727436634f19352d3c0",
+      "reference_load_N": 327.92,
+      "reference_leading_rods": [
+        1
+      ]
+    },
+    {
+      "name": "L290_260_both_n16",
+      "suite": "buckling",
+      "chord": 290,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "b0165b795130275ce0393efaf31d6d77a643591dfed2398c4d604099c702a2e0",
+      "reference_load_N": 458.56,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L283_260_none_n16",
+      "suite": "buckling",
+      "chord": 283,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "5a6dd78b4b24e68f387fe9c70f7650aad7feff0414b130a88b4070c758721907",
+      "reference_load_N": 267.87,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L283_260_left_n16",
+      "suite": "buckling",
+      "chord": 283,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "48c1f8da543880622d11394a7265536871cfc5c7f5043694d7574633f271fc76",
+      "reference_load_N": 327.6,
+      "reference_leading_rods": [
+        4
+      ]
+    },
+    {
+      "name": "L283_260_right_n16",
+      "suite": "buckling",
+      "chord": 283,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "68672ed6c980a59d2970e5e0fac26945da3c1a1d501db09e0f5973183c76b6ef",
+      "reference_load_N": 327.6,
+      "reference_leading_rods": [
+        1
+      ]
+    },
+    {
+      "name": "L283_260_both_n16",
+      "suite": "buckling",
+      "chord": 283,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "41d54c8d7861e298588c1ea74c07577709e71871ca33e5423a2de501fe149020",
+      "reference_load_N": 464.68,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L275_260_none_n16",
+      "suite": "buckling",
+      "chord": 275,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "2cc3f6e10d2d8a874b12b3a094afd228571fccea27764badaaeacef3f6795302",
+      "reference_load_N": 286.76,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L275_260_left_n16",
+      "suite": "buckling",
+      "chord": 275,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "cbe97ad7d33fb5a85e2bbf981f254b92aab64201d4e293ee5f9a5644a554c362",
+      "reference_load_N": 327.35,
+      "reference_leading_rods": [
+        4
+      ]
+    },
+    {
+      "name": "L275_260_right_n16",
+      "suite": "buckling",
+      "chord": 275,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "e419c54f64dac098b8a33cbbb215239022e4d5959481ba02a70b92d5d407e246",
+      "reference_load_N": 327.35,
+      "reference_leading_rods": [
+        1
+      ]
+    },
+    {
+      "name": "L275_260_both_n16",
+      "suite": "buckling",
+      "chord": 275,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "49e26f5792839328454f16540a4df35d18b8e0f068a764b97cf0d399117bf83f",
+      "reference_load_N": 471.14,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L268_260_none_n16",
+      "suite": "buckling",
+      "chord": 268,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "a7ea879c6de62030826b730eadda5fc5cf0ea69bcef93d5ebccd697b18a91f7b",
+      "reference_load_N": 304.75,
+      "reference_leading_rods": [
+        5
+      ]
+    },
+    {
+      "name": "L268_260_left_n16",
+      "suite": "buckling",
+      "chord": 268,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "fc07dd864e43da3828e1c9038123799a454236a7c4e98d5f5c17c636bc945db5",
+      "reference_load_N": 327.22,
+      "reference_leading_rods": [
+        4
+      ]
+    },
+    {
+      "name": "L268_260_right_n16",
+      "suite": "buckling",
+      "chord": 268,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "e38b751da6cbd09d521b635159220aa4b4dcc98d6013341f9e82abd1006909ac",
+      "reference_load_N": 327.22,
+      "reference_leading_rods": [
+        1
+      ]
+    },
+    {
+      "name": "L268_260_both_n16",
+      "suite": "buckling",
+      "chord": 268,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "a1002435452f53e6222020e3eb720cfc45fbdbed4fbb04d8b1628098747aefe6",
+      "reference_load_N": 476.4,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L260_260_none_n16",
+      "suite": "buckling",
+      "chord": 260,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "fc11bfb5cfa467b6bcd53925084981acad6730a6a85a114d29a457c184ae6b99",
+      "reference_load_N": 327.16,
+      "reference_leading_rods": [
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "L260_260_left_n16",
+      "suite": "buckling",
+      "chord": 260,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "e257253d51939955f9cc21181f1bd4da87bb624ce2bd889ccf374971114aa595",
+      "reference_load_N": 327.16,
+      "reference_leading_rods": [
+        4
+      ]
+    },
+    {
+      "name": "L260_260_right_n16",
+      "suite": "buckling",
+      "chord": 260,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "086c330e2a26120eb459bb7b970bdb6e82247659e519b1328e986e27bed1c721",
+      "reference_load_N": 327.16,
+      "reference_leading_rods": [
+        1
+      ]
+    },
+    {
+      "name": "L260_260_both_n16",
+      "suite": "buckling",
+      "chord": 260,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "645e24f31fef710b25f769a5209f02e0329d73f44db6eccde7213fdfc2d53d51",
+      "reference_load_N": 482.03,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L253_260_none_n16",
+      "suite": "buckling",
+      "chord": 253,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "e8bd777d12f1c26b50c5b6f343b74810cf75188311583dff60be8be2d57855eb",
+      "reference_load_N": 327.2,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L253_260_left_n16",
+      "suite": "buckling",
+      "chord": 253,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "fed75fa641f8626c7e643f50aab950d7c57406de32e691bc07ce5092aa338f24",
+      "reference_load_N": 327.2,
+      "reference_leading_rods": [
+        4
+      ]
+    },
+    {
+      "name": "L253_260_right_n16",
+      "suite": "buckling",
+      "chord": 253,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "1b0ae204d6d67d4d92198b04789413e8b7a125e06a79d01bae49dd79d00ab2ff",
+      "reference_load_N": 327.2,
+      "reference_leading_rods": [
+        1
+      ]
+    },
+    {
+      "name": "L253_260_both_n16",
+      "suite": "buckling",
+      "chord": 253,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "de2bf425041d2ba301cbea55577779dd79a4f1c1150ce92cc75caa4edd25b656",
+      "reference_load_N": 486.69,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L245_260_none_n16",
+      "suite": "buckling",
+      "chord": 245,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "bf43e74283eb5bba3a87424027fc1360bf43d3ca75ea6780baa6e6ca2cd875f7",
+      "reference_load_N": 327.34,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L245_260_left_n16",
+      "suite": "buckling",
+      "chord": 245,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "6c3cbbb26ce206051c30f303ebed8efcf538754cc1dd9d023b9e552dbad30756",
+      "reference_load_N": 327.34,
+      "reference_leading_rods": [
+        4
+      ]
+    },
+    {
+      "name": "L245_260_right_n16",
+      "suite": "buckling",
+      "chord": 245,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "ecac9b83b6e66d613274ff030553bdf4f82fc685976e0c5b2cdb40cf6e6db455",
+      "reference_load_N": 327.34,
+      "reference_leading_rods": [
+        1
+      ]
+    },
+    {
+      "name": "L245_260_both_n16",
+      "suite": "buckling",
+      "chord": 245,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "ada431ffa3a187aef800c3837a43c83df261b106415ae05173d67a6e78a613cf",
+      "reference_load_N": 491.77,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L238_260_none_n16",
+      "suite": "buckling",
+      "chord": 238,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "40c820752901b007cde1aada92351f86ec934395e3a98b62c9c8557b848482f3",
+      "reference_load_N": 327.54,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L238_260_left_n16",
+      "suite": "buckling",
+      "chord": 238,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "98a1bc128f2c25ff7411d9b1d4cb64b6dbe620428d4f8f82906cb947356266a1",
+      "reference_load_N": 327.54,
+      "reference_leading_rods": [
+        4
+      ]
+    },
+    {
+      "name": "L238_260_right_n16",
+      "suite": "buckling",
+      "chord": 238,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "7e29db898c7beac2acde01ec249d0d7717287823f8cc56ca1d0416d126c374c0",
+      "reference_load_N": 327.54,
+      "reference_leading_rods": [
+        1
+      ]
+    },
+    {
+      "name": "L238_260_both_n16",
+      "suite": "buckling",
+      "chord": 238,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "d016d0a8757eeacd919144d1e1a028f720fcabe1193d5bc20775141050a68bdf",
+      "reference_load_N": 496.04,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L230_260_none_n16",
+      "suite": "buckling",
+      "chord": 230,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "5bac9697758e9b23011aa449972039f974582f773e000b3f0086fe19d204a9bc",
+      "reference_load_N": 327.87,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L230_260_left_n16",
+      "suite": "buckling",
+      "chord": 230,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "f361b6fbda80d4e77bf62a98f7c5149303d4aed128afbba8dd44d894e74c47a1",
+      "reference_load_N": 327.87,
+      "reference_leading_rods": [
+        4
+      ]
+    },
+    {
+      "name": "L230_260_right_n16",
+      "suite": "buckling",
+      "chord": 230,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "3faecaf4653e2578d02715a84b8bdc3beb1f4b118e77bb154ce59f8204836d28",
+      "reference_load_N": 327.87,
+      "reference_leading_rods": [
+        1
+      ]
+    },
+    {
+      "name": "L230_260_both_n16",
+      "suite": "buckling",
+      "chord": 230,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "278b848bea1dacac73fd811815c7974881bb19689a2dbb73817c4ebb749fe134",
+      "reference_load_N": 500.79,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L223_260_none_n16",
+      "suite": "buckling",
+      "chord": 223,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "ede7e5e54c7edcb347939edea7403fd82723088a93853df2d40d44244b75ad4a",
+      "reference_load_N": 328.22,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L223_260_left_n16",
+      "suite": "buckling",
+      "chord": 223,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "fe2fbe46e0d6be469aeed727c3f70b689620893136cb440ab69e8183bdf31852",
+      "reference_load_N": 328.22,
+      "reference_leading_rods": [
+        4
+      ]
+    },
+    {
+      "name": "L223_260_right_n16",
+      "suite": "buckling",
+      "chord": 223,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "a1c5f0821168f0683c80d1bdcac329da1d680a9dc5a4aad54741606e01c38716",
+      "reference_load_N": 328.22,
+      "reference_leading_rods": [
+        1
+      ]
+    },
+    {
+      "name": "L223_260_both_n16",
+      "suite": "buckling",
+      "chord": 223,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "484e3f7bbee80fd71274eb668898884e1700f9d846ee3e85d4742b8a6452ad68",
+      "reference_load_N": 504.86,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L215_260_none_n16",
+      "suite": "buckling",
+      "chord": 215,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "150e8dfcc6f48506f2f80a218117f7462cf450adc9179eb5441555296ec40714",
+      "reference_load_N": 328.72,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L215_260_left_n16",
+      "suite": "buckling",
+      "chord": 215,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "909a801f36fa14e222c9f37049f0d0e01b2025ec22af82ff453a5860cc7693c6",
+      "reference_load_N": 328.72,
+      "reference_leading_rods": [
+        4
+      ]
+    },
+    {
+      "name": "L215_260_right_n16",
+      "suite": "buckling",
+      "chord": 215,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "f57102d88fadb489dbc9ce42123ecc7e4f965e65cd343dfc4061e75b9574e280",
+      "reference_load_N": 328.72,
+      "reference_leading_rods": [
+        1
+      ]
+    },
+    {
+      "name": "L215_260_both_n16",
+      "suite": "buckling",
+      "chord": 215,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "8259216b146d0bcf156dece3854b02dd8ec4982f517f02bc33faac66b29c31c6",
+      "reference_load_N": 509.45,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L204_260_none_n16",
+      "suite": "buckling",
+      "chord": 204,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "4714e228fc02674a8f21f202287eedffc4c45023557b9a644b33c3a57b8b8f39",
+      "reference_load_N": 329.55,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L204_260_left_n16",
+      "suite": "buckling",
+      "chord": 204,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "4494dad65750e6a9466259eb3c4777665ba6122db63c2cc7975a36fcd7d49052",
+      "reference_load_N": 329.55,
+      "reference_leading_rods": [
+        4
+      ]
+    },
+    {
+      "name": "L204_260_right_n16",
+      "suite": "buckling",
+      "chord": 204,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "f502ddbea0b92844db9d2c07389e7f3db1fb88ba358dddc62935475d89123646",
+      "reference_load_N": 329.55,
+      "reference_leading_rods": [
+        1
+      ]
+    },
+    {
+      "name": "L204_260_both_n16",
+      "suite": "buckling",
+      "chord": 204,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "f338006ef4a28e388edd9e9d3fc2781d461086bce8e4f0659f2fd117ed159ac0",
+      "reference_load_N": 515.75,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L193_260_none_n16",
+      "suite": "buckling",
+      "chord": 193,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "d595af91d61ade4d05a5dad8c7e4a4f1dea1f1609d0cf1c70fe11126a2465672",
+      "reference_load_N": 330.55,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L193_260_left_n16",
+      "suite": "buckling",
+      "chord": 193,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "162fb2627055dce98a26089069a8d96058c999427750bd7f00f1a797d5c7481d",
+      "reference_load_N": 330.55,
+      "reference_leading_rods": [
+        4
+      ]
+    },
+    {
+      "name": "L193_260_right_n16",
+      "suite": "buckling",
+      "chord": 193,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "0f1813060ec1be781f994c11c75c85d6e66c8586c1b4f37f05150339c8f66808",
+      "reference_load_N": 330.55,
+      "reference_leading_rods": [
+        1
+      ]
+    },
+    {
+      "name": "L193_260_both_n16",
+      "suite": "buckling",
+      "chord": 193,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "d2f0d55f843aac9dbe2adb1e351e990e128f56d35cb3caaedb0b319f0f4f4e48",
+      "reference_load_N": 522.11,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L183_260_none_n16",
+      "suite": "buckling",
+      "chord": 183,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "62582781f294e13c20f7064f44d804240c259d694252b6d2a99ad18e046bc6c7",
+      "reference_load_N": 331.61,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L183_260_left_n16",
+      "suite": "buckling",
+      "chord": 183,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "3686273185cb9b4e632722c7669a1de0d6cbb437f3169691e5234175135be312",
+      "reference_load_N": 331.61,
+      "reference_leading_rods": [
+        4
+      ]
+    },
+    {
+      "name": "L183_260_right_n16",
+      "suite": "buckling",
+      "chord": 183,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "cc5097df8295a9af5677b0a6855cb4b9995cc2b0cb120b8252f207780807f5cb",
+      "reference_load_N": 331.61,
+      "reference_leading_rods": [
+        1
+      ]
+    },
+    {
+      "name": "L183_260_both_n16",
+      "suite": "buckling",
+      "chord": 183,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "26f496c1a6a01e66c22d4f9e1953918a0bb2d9e411decb4c8d9682c8c0b31a35",
+      "reference_load_N": 528.01,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L172_260_none_n16",
+      "suite": "buckling",
+      "chord": 172,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "94fa1833dfac224fe5455b12bbd9654e2bc1e598112c0ea784b94f8c848c0d1f",
+      "reference_load_N": 332.94,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L172_260_left_n16",
+      "suite": "buckling",
+      "chord": 172,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "c8978af18d468ba56fb303e38de8cb0355aa3cf9387a663f9ddf7143a7dcc7ee",
+      "reference_load_N": 332.94,
+      "reference_leading_rods": [
+        4
+      ]
+    },
+    {
+      "name": "L172_260_right_n16",
+      "suite": "buckling",
+      "chord": 172,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "b3ce1abb94e5cf4a0b868da8505f8d7a636f4e1967835a779655f3f4b73a5e0e",
+      "reference_load_N": 332.94,
+      "reference_leading_rods": [
+        1
+      ]
+    },
+    {
+      "name": "L172_260_both_n16",
+      "suite": "buckling",
+      "chord": 172,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "9f8d2ba72cd55b434bf2486c57809c770beb3ac2d801ec728bb6e9bae480420a",
+      "reference_load_N": 534.7,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L161_260_none_n16",
+      "suite": "buckling",
+      "chord": 161,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "2006972bdeabaa81a2e52298ce81b568dcfd1316ad3106438ea39d0c0080bfbf",
+      "reference_load_N": 334.43,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L161_260_left_n16",
+      "suite": "buckling",
+      "chord": 161,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "4564d15cb98a9f39898acbc75f60fd3bb39b6040a5547ee550bc12e4fb37676e",
+      "reference_load_N": 334.43,
+      "reference_leading_rods": [
+        4
+      ]
+    },
+    {
+      "name": "L161_260_right_n16",
+      "suite": "buckling",
+      "chord": 161,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "dbfa679f1dd4d749ebb1f2944085156a99d69ccd8424afab8179444194edc59f",
+      "reference_load_N": 334.43,
+      "reference_leading_rods": [
+        1
+      ]
+    },
+    {
+      "name": "L161_260_both_n16",
+      "suite": "buckling",
+      "chord": 161,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "48347295b7072982a88d1eb52e1ad935bf269214e42d427c66d56cacbc0eac43",
+      "reference_load_N": 541.68,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L150_260_none_n16",
+      "suite": "buckling",
+      "chord": 150,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "dfcfc7fb09814b29cb641f2ae6cda5e1d575f28d74de6453678f879f4e84845f",
+      "reference_load_N": 336.09,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "L150_260_left_n16",
+      "suite": "buckling",
+      "chord": 150,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "c0d61a0d83e09968c2ed51eca1a8dc5f6d75d92d1ca2db8c5fc2c87c0522d11d",
+      "reference_load_N": 336.09,
+      "reference_leading_rods": [
+        4
+      ]
+    },
+    {
+      "name": "L150_260_right_n16",
+      "suite": "buckling",
+      "chord": 150,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "1846a1834a498c5b8873428d576ade08554092f72b9572b3788beb8fd2186abd",
+      "reference_load_N": 336.09,
+      "reference_leading_rods": [
+        1
+      ]
+    },
+    {
+      "name": "L150_260_both_n16",
+      "suite": "buckling",
+      "chord": 150,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "49e8bd67b33443d831af87b49dd32eddb5d23bf7c9ccf374ed916e2ecf3c5bda",
+      "reference_load_N": 549.03,
+      "reference_leading_rods": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "V150_none",
+      "suite": "refined",
+      "chord": 150,
+      "plate": "none",
+      "mesh": 32,
+      "sha256": "8f81b8c280400418a8078ecb9033f79fd07254956a9785b263d496b3a77f50b2",
+      "controls": "tight",
+      "variants": [
+        0
+      ]
+    },
+    {
+      "name": "V215_right",
+      "suite": "refined",
+      "chord": 215,
+      "plate": "right",
+      "mesh": 32,
+      "sha256": "e91858fbbd0a6356fdd59a8ac3e7c29f9e6a70de35700580978ac5f29fa39aa0",
+      "controls": "tight",
+      "variants": [
+        0
+      ]
+    },
+    {
+      "name": "V260_left",
+      "suite": "refined",
+      "chord": 260,
+      "plate": "left",
+      "mesh": 32,
+      "sha256": "5cf4eb19685d65e116a9609659d074f8ab6bc83f3fc9a9e24e6a55278469080a",
+      "controls": "tight",
+      "variants": [
+        0
+      ]
+    },
+    {
+      "name": "V305_none",
+      "suite": "refined",
+      "chord": 305,
+      "plate": "none",
+      "mesh": 32,
+      "sha256": "f7a89eedc822decc3fa659c494f9918ddcbf8e7b6f170abc3563f344905d41fb",
+      "controls": "default",
+      "variants": [
+        0
+      ]
+    },
+    {
+      "name": "V370_both",
+      "suite": "refined",
+      "chord": 370,
+      "plate": "both",
+      "mesh": 32,
+      "sha256": "123c35738bbb53444bd003c80eb9c71d17090b3cb6d2b0a38868637bb804bfed",
+      "controls": "tight",
+      "variants": [
+        0
+      ]
+    },
+    {
+      "name": "T150_both",
+      "suite": "curves",
+      "chord": 150,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "8679e4aaa2983cc9596cfc9d8997086ecd5ec95e6393273aa03e4eb78b50d208",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T150_left",
+      "suite": "curves",
+      "chord": 150,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "66e9349245500e06a51946d3654d4835c424e03498f811622c47539c62f35101",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T150_none",
+      "suite": "curves",
+      "chord": 150,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "022334579db0c9929f63a31c6c207c5208a6f7b13f5a6eb1e1082ad0c96d5e7d",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T150_right",
+      "suite": "curves",
+      "chord": 150,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "62931f0df2069e0b9fe7fc1680a798c8f9b6a1bdc8f0a95a61d9dc0023e42d4a",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T161_both",
+      "suite": "curves",
+      "chord": 161,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "b8bd78fb8df2e7f8a6480b30f7d0f34f6d395278ddc2e35da0c1875b29ebe630",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T161_left",
+      "suite": "curves",
+      "chord": 161,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "c693add42744a9fb661a0e2b8a5df9347b4310c1f01c00cb0806ea43c798432e",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T161_none",
+      "suite": "curves",
+      "chord": 161,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "685227d6472f5c14bee3c2a3b2a8fcd06ef9e6b07e648cd088062663ac2143b8",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T161_right",
+      "suite": "curves",
+      "chord": 161,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "73112d2f8e2ca4a10fd0600f9dbc5fe8e8b91cb33a76b10bcd8205c201f53005",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T172_both",
+      "suite": "curves",
+      "chord": 172,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "6daa0d1a8400737b9e944deb1aecbdd385fcf7c8989c751ea63a6cf3cadc9a48",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T172_left",
+      "suite": "curves",
+      "chord": 172,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "711f5eb062e8c04300879d4b588fd16d478e99b71f661ce50aa925c84d4c1ea2",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T172_none",
+      "suite": "curves",
+      "chord": 172,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "cb4bc5e5ada3a1df8d9f768a441f108cfd05daf2e5cc94d599d89b9a33386fdb",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T172_right",
+      "suite": "curves",
+      "chord": 172,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "f05440f927f4669af888246c633302fbe52654b0d312cb6b0876d2de69adc84f",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T183_both",
+      "suite": "curves",
+      "chord": 183,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "800f0684ef0cb3678a078d4d037cb012fdd7f8bbc90462e7432a233a7359c098",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T183_left",
+      "suite": "curves",
+      "chord": 183,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "9fbf1c5de8df76faf3f177441ed78c47c3a5de3c9ac6971dade4a0553404d4e9",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T183_none",
+      "suite": "curves",
+      "chord": 183,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "c03fe6f177d07f01872bc41cd0e8e942a95886ed526656cd0efce1d19fdf6c1f",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T183_right",
+      "suite": "curves",
+      "chord": 183,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "e2f2d00f74d8a5997f0b9176ca6f1a00f2eb1cf13ae2fdc5b54cec8fe4fe4420",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T193_both",
+      "suite": "curves",
+      "chord": 193,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "6a6aafae362319646b96614db4933af39e5e77a9b992457954742ce3959870d7",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T193_left",
+      "suite": "curves",
+      "chord": 193,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "f250df1b6247784c1b1248b6d4b8922dfaefc61e120244807bf635ac0927ab15",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T193_none",
+      "suite": "curves",
+      "chord": 193,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "8b5b0da971360b7ce10941f52e08f40f35da06a673bb22add6e07cabc3980edb",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T193_right",
+      "suite": "curves",
+      "chord": 193,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "4566cdfed638975b15b691fd54a35243380ffb47745ac5cef9874fd56924d6b4",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T204_both",
+      "suite": "curves",
+      "chord": 204,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "c2467cd550fbd8c92d084ec88b3e9441f30020eec4692d49bc66d14f12a35c5c",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T204_left",
+      "suite": "curves",
+      "chord": 204,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "808062303c88e8f54f5862f6c313c3ddf5e05bfaed0a890c7cb2178fcee2c4fb",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T204_none",
+      "suite": "curves",
+      "chord": 204,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "c0927181e27fd1faa0b654733fbd146f7a8eb21e56e71d0ed8e69e257d965a6b",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T204_right",
+      "suite": "curves",
+      "chord": 204,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "1b0a5875ca9815248ba0ac7268bc1df342786201da4d13d5f150a74cbdc86dc6",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T215_both",
+      "suite": "curves",
+      "chord": 215,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "85e8b7430f4a5b81498661ac974b910307e1870243009d9ff4d37317d3aa8424",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T215_left",
+      "suite": "curves",
+      "chord": 215,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "0b0e51d1474d0a66f1e5efcd70d47fcea2c62866f2ba7a74489c5af9138e9f8f",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T215_none",
+      "suite": "curves",
+      "chord": 215,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "723077e1b937dac5876cecfbea1ad4f103ca793b72252d7cdec370086c767b0f",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T215_right",
+      "suite": "curves",
+      "chord": 215,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "852adf8c5bae994e5e206060885c2183af1b7ad05ffaf6bd328f8a2e577ecb73",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T223_both",
+      "suite": "curves",
+      "chord": 223,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "79e010403febd8527d51719bea7d1435fce928ca3411ae10c364f9312f9374dc",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T223_left",
+      "suite": "curves",
+      "chord": 223,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "c834409e04b4bbaed8c6728612ac90ebc42c697912dd096dbb53d09282ed598a",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T223_none",
+      "suite": "curves",
+      "chord": 223,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "2f35936da4423213250d55d9fd20db26c97260ad6f74c902b681c72b152f987e",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T223_right",
+      "suite": "curves",
+      "chord": 223,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "d63aa987d01d1fb2f6f2f73511eabd7c6e8ffd5f1b11833180b8150e54ef3f8e",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T230_both",
+      "suite": "curves",
+      "chord": 230,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "db25e8c39731e7fe3a1ecc9237e3e7a6cdfbb3b190988dac8a4b77b55b9e02e0",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T230_left",
+      "suite": "curves",
+      "chord": 230,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "0ca6688062a7184111023d5389932df8c3cb16fad84f926d68d4c0c58b912cba",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T230_none",
+      "suite": "curves",
+      "chord": 230,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "5390e7ee737a271113ed86be37e553dd80085dabe30ea0eb743386562f71b18f",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T230_right",
+      "suite": "curves",
+      "chord": 230,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "6d85ed573f9c06a99c783eadf1a9c6d52e5a01b8855aa01e7ec44f010cae14b6",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T238_both",
+      "suite": "curves",
+      "chord": 238,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "07c2f7b2180c7d07cf2a3f05cac86b396bf8efa96055413a11dbbf7d22b95b71",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T238_left",
+      "suite": "curves",
+      "chord": 238,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "1c6eeea08f2c66bac7496283057092a3113e60dd812c29abfa46ef2b439fce11",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T238_none",
+      "suite": "curves",
+      "chord": 238,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "e9620e032b727aa83512bfa2de81393c823a5d5ec81c01e22dc292d38669a0b5",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T238_right",
+      "suite": "curves",
+      "chord": 238,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "9605455506997d6b9ce6ce145e83c81c34429d989c8c0bec1eb100848314a282",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T245_both",
+      "suite": "curves",
+      "chord": 245,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "86c400e5d62ffab85c34eb6b813abdf338db81b498f1e647da109b781703928f",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T245_left",
+      "suite": "curves",
+      "chord": 245,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "e904a943ec04dbf088563401c80b24cf5da1b813e120a332659254d7c20e2d71",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T245_none",
+      "suite": "curves",
+      "chord": 245,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "3a4c8f0159c7449597a02674c4f3e0d39399f254b59f36c82dc2458956ed0e7d",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T245_right",
+      "suite": "curves",
+      "chord": 245,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "f0e8836fcb15a4526be0dba51adc3acb8dee401339229d9c59e79782df53fd3c",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T253_both",
+      "suite": "curves",
+      "chord": 253,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "58a250d33f59b7cf535e38e19d4e972dc78524fc0f773c2f3d9fbed9da43002c",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T253_left",
+      "suite": "curves",
+      "chord": 253,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "0f13d66d15de6c30b931b5b7513ac69daef65ce6f553868195050dfec3827d9d",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T253_none",
+      "suite": "curves",
+      "chord": 253,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "ba71e488388d5c688481c90f83238a9faa8ba3c415c7530733b0e92997651d1d",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T253_right",
+      "suite": "curves",
+      "chord": 253,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "d70b076f0cb5448287481215c532c955592b308c2a3e66be773a4aec446aeec9",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T260_both",
+      "suite": "curves",
+      "chord": 260,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "41680920632f91aa27a25dee9cce4d0c817c5710b6ac2fb2c02b9a4c67038ebe",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T260_left",
+      "suite": "curves",
+      "chord": 260,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "ec084ab3fa8c29aec557a31015b078952c8d86db94666a48aa94032437623f87",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T260_none",
+      "suite": "curves",
+      "chord": 260,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "906d0c3f6539f9863ebbb3c0cf0ff561ad8fff72443f2e3ca9c6a9cd4659e348",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T260_right",
+      "suite": "curves",
+      "chord": 260,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "ef02a85fab508a4188b5d6da3e187569c953ea5876913611dddcea602f39d974",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T268_both",
+      "suite": "curves",
+      "chord": 268,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "fd1242c5ed544a0494529758eff318739a9b84738c974f5228d39c6919ab4d3c",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T268_left",
+      "suite": "curves",
+      "chord": 268,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "43a2db790e39a0b936b088e1cbbf36bbdfb7b7fa20a85a8f07283a528a2267a6",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T268_none",
+      "suite": "curves",
+      "chord": 268,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "ad19ee912c7d4fe2dcbb2a795318e9fb14c284914acd84825c1fc095d97871e1",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T268_right",
+      "suite": "curves",
+      "chord": 268,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "5ab78c089b07b21e0ce6178d159f96aac95ec58b7eb913bcfb89b4e496ba5601",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T275_both",
+      "suite": "curves",
+      "chord": 275,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "a081d04d7a856bc7949b7852bd0413d1c0f53d914c0f6074e967fc1830994937",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T275_left",
+      "suite": "curves",
+      "chord": 275,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "ac70478cf7280d7253b189907f8639acdfd749c1878666f1e48d68bcafc1387d",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T275_none",
+      "suite": "curves",
+      "chord": 275,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "58694e8398dbffe1f613b0528dfe5227dc002c5fb45dc8f005fbf37c3ab6ae32",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T275_right",
+      "suite": "curves",
+      "chord": 275,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "fda234a12c827d9bdde3318501510cf5aaa8db6721f7136b97323cad962a4132",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T283_both",
+      "suite": "curves",
+      "chord": 283,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "aa4631cd676364b4814f21e07e3ce1adb715b92b53389dc94ffeac561cdcf488",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T283_left",
+      "suite": "curves",
+      "chord": 283,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "279fb29895923b7727d8d9b9b2d6c4f2c204056928498f5f3cd9c677ed05dd29",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T283_none",
+      "suite": "curves",
+      "chord": 283,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "f7ee78f07ea4a6aa548af402055f699100fe0d73979c071c72d1e9a083cb7cbe",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T283_right",
+      "suite": "curves",
+      "chord": 283,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "623b3c9a9cbc7170056294d2fc88fa3521724612d840fddedad74c3398bf8f53",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T290_both",
+      "suite": "curves",
+      "chord": 290,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "2e8930ba1ae3f8af5370930736f3a2c29d706c19a8d451312c0d8e264aa0b0d4",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T290_left",
+      "suite": "curves",
+      "chord": 290,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "9d53b0b3edb74af574da708d2e05c5db1c62646f251a7f4010f322a10d645b44",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T290_none",
+      "suite": "curves",
+      "chord": 290,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "77e14151cd3d9adfeac2871227006be39b869ea5929c5f8f619581cdaf86633e",
+      "controls": "default",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T290_right",
+      "suite": "curves",
+      "chord": 290,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "3ebe7d6a3f40cd2fb2c83103564b6aa4edb68d1a31a560e6902925de224c25e8",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T298_both",
+      "suite": "curves",
+      "chord": 298,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "a9bc670b47c710e61e0cd732224a457132a0ebe087fc01c907efd71089de6b1b",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T298_left",
+      "suite": "curves",
+      "chord": 298,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "b9ed1b85c35ed3f24efd4dd6a54e4b1b89e23c3f76e6d46effda5e20acd0a3ad",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T298_none",
+      "suite": "curves",
+      "chord": 298,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "790e0111a1e3299816ccd24b12523be932f33f626fab510691eb6e5edbd52320",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T298_right",
+      "suite": "curves",
+      "chord": 298,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "0394d7078d7626625fd2955dd6072ac656598c33ff9aca2238f055f6e11bd93b",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T305_both",
+      "suite": "curves",
+      "chord": 305,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "7a094a0da67083188ac3f977a679057c80f8d129b4b25c5f6435cca1683d4592",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T305_left",
+      "suite": "curves",
+      "chord": 305,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "935a586ccbfd78a86565b26b9608885c16c642c3bd821fb4a1ac711af3f3151b",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T305_none",
+      "suite": "curves",
+      "chord": 305,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "740202b52c9f288ff35b01acf30ebb0b69fc1aa17f831ff03642c118480ad619",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T305_right",
+      "suite": "curves",
+      "chord": 305,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "540bb784c0d6b199420b3ce65b3d6672136f46b670f9e8342953d20cf61f800d",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T316_both",
+      "suite": "curves",
+      "chord": 316,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "f3e85c490a8dced8c6193d295db90132d72f6dec2df90bd38a15f728fd71a48d",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T316_left",
+      "suite": "curves",
+      "chord": 316,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "b8630dd17c478c8782c2e84816803d88675ce3d2bf754d7d8deb36a460846626",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T316_none",
+      "suite": "curves",
+      "chord": 316,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "806cac9243942d56fdef57106029fdcc3db491834e1db1a568c83ad120f7b944",
+      "controls": "default",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T316_right",
+      "suite": "curves",
+      "chord": 316,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "f5dffae9538af484b0a91497273b96daac03ec4eaf012cad2c492fb41710ac3a",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T327_both",
+      "suite": "curves",
+      "chord": 327,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "78b0374eef3a0a032a40211a082139e6c7fbadf10011ae58f319f3262c2764cd",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T327_left",
+      "suite": "curves",
+      "chord": 327,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "df2cb0b330afdacd8cfcc4981d8f47361ecbadb0a1074a3fdc10cbe7c471ff44",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T327_none",
+      "suite": "curves",
+      "chord": 327,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "e4442245e76192a278336a29df2fdc4c3630ea7952ce747f5dc2563c1d7bab37",
+      "controls": "default",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T327_right",
+      "suite": "curves",
+      "chord": 327,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "006d35e136c902eee42e654d467788d68dc7f93fa84b3a293c0ee15c2af13782",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T338_both",
+      "suite": "curves",
+      "chord": 338,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "d2d43a06633dbc1c38ba81a93f2443b6ab7ad8bb2d9c4f1dd0547aa2287bed76",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T338_left",
+      "suite": "curves",
+      "chord": 338,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "b24380703814a7d072bc4825dcb8ded549d3236bf56a9e0c3273fd7faf8a0254",
+      "controls": "default",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T338_none",
+      "suite": "curves",
+      "chord": 338,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "b7194c2a86f68fd9b2d85c393c16a68f2f5e100f90fd961619d1547127cd6223",
+      "controls": "default",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T338_right",
+      "suite": "curves",
+      "chord": 338,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "634904b33a926334c61a1266cc699b8266621ac74da9b8a08ad5ee63d8a39413",
+      "controls": "default",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T348_both",
+      "suite": "curves",
+      "chord": 348,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "e730ccaa65ff404e6fa0feffa66e1f4ce5baa20a252c1d64336f98141d4fe329",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T348_left",
+      "suite": "curves",
+      "chord": 348,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "57bd8efab9e074ef6b53081eb258762132c823ef2a93c0fc2dedcb85b7cd583d",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T348_none",
+      "suite": "curves",
+      "chord": 348,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "9d94d7cdb3b5d20b156a06e0b4d97306cdd9545c02c8b7f8a513f20abd7ce644",
+      "controls": "default",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T348_right",
+      "suite": "curves",
+      "chord": 348,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "ceac3792e4cda0eb8826f322f241f3a6852b4882421b3a85320bed634854b7f5",
+      "controls": "default",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T359_both",
+      "suite": "curves",
+      "chord": 359,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "086635f0c1a9238488d63f475dcb01243bd877f345cf7af9c6f67ce65002a878",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T359_left",
+      "suite": "curves",
+      "chord": 359,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "8e5514d413f557ad7ea296fa0faf770e3f550c2eb9007508fac0d5cfc577a20d",
+      "controls": "default",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T359_none",
+      "suite": "curves",
+      "chord": 359,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "8e4b0f6bcdc5d195d7f1268a4cf90799bfa9c33e8bbfdb537a738404ef89eebc",
+      "controls": "default",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T359_right",
+      "suite": "curves",
+      "chord": 359,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "2706456f970a33f497b51b5bc63bc8f232c7b906187d2fa65d9cd89700e9df61",
+      "controls": "default",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T370_both",
+      "suite": "curves",
+      "chord": 370,
+      "plate": "both",
+      "mesh": 16,
+      "sha256": "2329cb3cd45d405217ce37a75a98e1d1fffc6d9614ba5a4af5dfef1db2de3590",
+      "controls": "tight",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T370_left",
+      "suite": "curves",
+      "chord": 370,
+      "plate": "left",
+      "mesh": 16,
+      "sha256": "1eaa9c10c91bce3e553d6bd2e702e55dbd6248cc77657dfc3aadcc2c6a5e2f8c",
+      "controls": "default",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T370_none",
+      "suite": "curves",
+      "chord": 370,
+      "plate": "none",
+      "mesh": 16,
+      "sha256": "5c73af07324cbf3b4096c9ec46aa23b78d0492caeeadea0afeefdcf7de854186",
+      "controls": "default",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "T370_right",
+      "suite": "curves",
+      "chord": 370,
+      "plate": "right",
+      "mesh": 16,
+      "sha256": "cdc20e79a78e82d9d1c08d423b2fe60cfbad77d36cf96c73ff10d5311cb5f475",
+      "controls": "default",
+      "variants": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ]
+}
